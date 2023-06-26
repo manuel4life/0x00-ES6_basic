@@ -1,1 +1,1 @@
-Read me for ES6 Basic
+Read me for ALX front-end Projects
