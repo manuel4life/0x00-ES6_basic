@@ -1,5 +1,5 @@
 const promise = new Promise((resolve, reject) => {
-    //eslint-disable-next-line no-constant-condition 
+  // eslint-disable-next-line no-constant-condition
   if (true) {
     resolve('true');
   } else {
