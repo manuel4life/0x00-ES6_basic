@@ -1,8 +1,6 @@
 export default function cleanSet(set, startString) {
   if (typeof startString === 'string' && startString.length > 0) {
-    const selected = [...set].filter((value) => {
-      return value.startsWith(startString);
-    });
+    const selected = [...set].filter((value) => value.startsWith(startString));
 
     let finalStr = '';
     for (const str of selected) {
@@ -15,4 +13,3 @@ export default function cleanSet(set, startString) {
 
   return '';
 }
-
